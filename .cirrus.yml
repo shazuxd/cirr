@@ -6,7 +6,7 @@ task:
   name: "CirrusCI-Recovery-Builder"
   timeout_in: 120m
   container:
-      image: shazuxdubuntu/ubuntu:latest
+      image: ubuntu:latest
       cpu: 4
       memory: 16G
 
