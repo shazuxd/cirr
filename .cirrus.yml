@@ -7,12 +7,8 @@ task:
   timeout_in: 120m
   container:
       image: shazuxdubuntu/ubuntu:latest
-      cpu: 8
-      memory: 20G
+      cpu: 4
+      memory: 16G
 
   Sync_script:
-      - curl -sL https://github.com/ShazuxD/CirrusCI-Recovery-Builder/raw/main/scripts/sync.sh | bash
-  Build_script:
-      - curl -sL https://github.com/ShazuxD/CirrusCI-Recovery-Builder/raw/main/scripts/build.sh | bash
-  Upload_script:
-      - curl -sL https://github.com/ShazuxD/CirrusCI-Recovery-Builder/raw/main/scripts/upload.sh | bash
+      - sleep 10m
