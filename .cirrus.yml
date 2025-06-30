@@ -1,5 +1,5 @@
 env:
-    CONFIG: config.sh
+    CONFIG: config.shh
     CIRRUS_SHELL: bash
 
 task:
